@@ -1,0 +1,235 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1600px) {
+    body {
+        font-size: 14px;
+    }
+    .header {
+        padding: 23px 0;
+    }
+    .logo img {
+        width: 150px;
+    }
+    .billbord {
+        padding: 0 50px;
+    }
+    .item-billbord {
+        height: 550px;
+    }
+    .item-billbord__logo img {
+        max-width: 270px;
+    }
+    .billbord-controls .slick-arrow {
+        bottom: 255px;
+    }
+    .tabs a {
+        font-size: 18px;
+        padding-bottom: 6px;
+    }
+    .tabs li {
+        padding: 0 32px;
+    }
+    .brands {
+        padding-top: 38px;
+    }
+    .tabs {
+        margin-bottom: 35px;
+    }
+    .item-brand {
+        height: 125px;
+    }
+    .title-section {
+        font-size: 27px;
+        padding: 32px 0;
+    }
+    .row_contacts {
+        margin: 0 -8px;
+    }
+    .row_contacts > div {
+        padding: 0 8px;
+        margin-bottom: 16px;
+    }
+    #map {
+        height: 400px;
+        margin-top: 10px;
+    }
+    .item-contact {
+        height: 355px;
+        padding: 0 15px;
+    }
+    .item-contact__title {
+        font-size: 20px;
+        padding: 13px 0;
+    }
+    .item-contact .btn-main {
+        margin-top: 15px;
+    }
+    .list-social a {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .item-contact .list-social {
+        margin-top: 7px;
+    }
+    .item-contact strong {
+        margin-top: 9px;
+    }
+    .wrapper {
+        padding-top: 61px;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .billbord {
+        padding: 0 30px;
+    }
+    .item-billbord {
+        height: 400px;
+    }
+    .item-billbord__logo img {
+        max-width: 230px;
+    }
+    .billbord-controls .slick-arrow {
+        bottom: 194px;
+    }
+    .tabs a {
+        font-size: 16px;
+    }
+    .tabs li {
+        padding: 0 17px;
+    }
+    .item-brand {
+        height: 95px;
+    }
+    .item-contact__title {
+        font-size: 17px;
+        padding: 10px 0;
+    }
+    .item-contact {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    .item-contact .btn-main {
+        height: 45px;
+        font-size: 13px;
+        padding: 0 10px;
+    }
+    .contacts {
+        padding-bottom: 70px;
+    }
+    .header {
+        padding: 16px 0;
+    }
+    .wrapper {
+        padding-top: 47px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .billbord {
+        padding: 0;
+    }
+    .tabs li {
+        padding: 0 7px;
+    }
+    .col-contacts {
+        width: 33.333%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .item-billbord {
+        height: 310px;
+    }
+    .billbord-controls .slick-arrow {
+        bottom: 143px;
+    }
+    .billbord-controls .slick-prev {
+        left: 10px;
+    }
+    .billbord-controls .slick-next {
+        right: 10px;
+    }
+    .item-billbord__logo img {
+        max-width: 170px;
+    }
+    .brands {
+        padding-top: 28px;
+    }
+    .col-brand {
+        width: 33.3333333%;
+    }
+    .row_brands > div {
+        margin-bottom: 5px;
+    }
+    .tabs a {
+        font-size: 14px;
+    }
+    .tabs {
+        margin-bottom: 6px;
+        flex-wrap: wrap;
+    }
+    .tabs li {
+        padding: 0 10px;
+        margin-bottom: 14px;
+    }
+    .title-section {
+        font-size: 23px;
+        padding: 25px 0;
+        text-align: center;
+    }
+    .col-contacts {
+        width: 50%;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .item-brand {
+        height: 70px;
+        padding: 5px;
+    }
+    .col-contacts {
+        width: 100%;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1600px) {
+	.container {
+    max-width: 1470px;
+}
+}
