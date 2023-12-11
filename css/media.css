@@ -194,6 +194,16 @@
     .col-contacts {
         width: 100%;
     }
+    .item-contact {
+        font-size: 14px;
+        height: 400px;
+    }
+    .item-billbord {
+        height: 265px;
+    }
+    .billbord-controls .slick-arrow {
+        bottom: 119px;
+    }
 }
 
 /* Custom, iPhone Retina */
